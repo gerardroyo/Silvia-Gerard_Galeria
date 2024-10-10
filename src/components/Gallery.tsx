@@ -8,15 +8,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState('')
 
   const images = [
-    'https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292448930323238982/4.jpg?ex=6703c65d&is=670274dd&hm=099bbf52df736d2239c932f671a7221bd93de69e10a9343a2325026ab59835b4&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292449151975690280/5.png?ex=6703c692&is=67027512&hm=18c0b8856d54aa3bb811d19c597be30c6d38f03b5557caf2cc02e6f09d5c51d0&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292449360822538250/6.jpg?ex=6703c6c4&is=67027544&hm=51102540703c786e7b692a2cb5c761629a089906ec6c2d2e0a31134042122ac7&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292448264880394311/2.jpg?ex=67090bbe&is=6707ba3e&hm=6afa0f12fb575fbf41cf441799bd961628f31b6c04e8679f0731b0f34996a8e6&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292448659895615538/3.jpg?ex=67090c1d&is=6707ba9d&hm=57d3761878ebed3c1080bb4fcfb60a5dff7cdfcbdab8a74b91c2998e4da6a894&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292448930323238982/4.jpg?ex=67090c5d&is=6707badd&hm=77bb797a96e33405cea9273e918d698428ecc5f460bf9251ab8aa8cdce1cc325&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292449151975690280/5.png?ex=67090c92&is=6707bb12&hm=47a98fb14c40424a25d906991636b823a89eacfa99aad55365396b095e6471bc&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292449360822538250/6.jpg?ex=67090cc4&is=6707bb44&hm=e4c6d276d98b0273ad05606bfae0e7ba61931bf92231d0701dc0221e165816b0&',
     'https://cdn.discordapp.com/attachments/781949410322022482/1292447320675454976/1.png?ex=67090add&is=6707b95d&hm=2fdc691e0056db3580edb70bd6787ca644f312167a0746a822eddb1bdd4217c8&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292499401117270086/7.jpg?ex=6703f55e&is=6702a3de&hm=53f6538635fcb4ff97b13b7276f5c0a831663e66563e6702901bcb399108f5ae&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292501766973427825/8.jpg?ex=6703f792&is=6702a612&hm=402135ccdf37ee19a6533b58c0e056c392a67963412192c39b4be0fbbedf80b5&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292501784983638026/9.jpg?ex=6703f797&is=6702a617&hm=31a3ab1973554e4e4fbfb8e912cf4f88869c4aa9c1d6800dbb5da127e8aa0c92&'
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292499401117270086/7.jpg?ex=6708929e&is=6707411e&hm=3b9799bbb9351198472f0d9815ecae69a605dc85b330a0ee1f31f7dc06014819&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292501766973427825/8.jpg?ex=670894d2&is=67074352&hm=034b7e6a93348400e79071efe79bd69f30f842448707010d99ccca0d60953985&',
+    'https://cdn.discordapp.com/attachments/781949410322022482/1292501784983638026/9.jpg?ex=670894d7&is=67074357&hm=0c4afa0721454a034b4e97fb88a62b875f290a2ecc89d8df4d954eb8a67d1227&'
   ]
 
   const openModal = (image: string) => {
