@@ -8,8 +8,8 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState('')
 
   const images = [
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292448264880394311/2.jpg?ex=6703c5be&is=6702743e&hm=b40270dbf608a01a3b3f8634f778e120b78683ad90c4117e20de53e6467c5168&',
-    'https://cdn.discordapp.com/attachments/781949410322022482/1292448659895615538/3.jpg?ex=6703c61d&is=6702749d&hm=d72c6a910f46cd76d4559befd7957c2226afa7dc7ec71c388e4bb29c12dc6d99&',
+    'https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/220px-Image_created_with_a_mobile_phone.png',
     'https://cdn.discordapp.com/attachments/781949410322022482/1292448930323238982/4.jpg?ex=6703c65d&is=670274dd&hm=099bbf52df736d2239c932f671a7221bd93de69e10a9343a2325026ab59835b4&',
     'https://cdn.discordapp.com/attachments/781949410322022482/1292449151975690280/5.png?ex=6703c692&is=67027512&hm=18c0b8856d54aa3bb811d19c597be30c6d38f03b5557caf2cc02e6f09d5c51d0&',
     'https://cdn.discordapp.com/attachments/781949410322022482/1292449360822538250/6.jpg?ex=6703c6c4&is=67027544&hm=51102540703c786e7b692a2cb5c761629a089906ec6c2d2e0a31134042122ac7&',
