@@ -8,15 +8,15 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState('')
 
   const images = [
-    'https://ibb.co/qNhkJLF',
-    'https://ibb.co/VHWpMJJ',
-    'https://ibb.co/87fpDmh',
-    'https://ibb.co/3CTP3y1',
-    'https://ibb.co/x7K6HvC',
-    'https://ibb.co/w6kLbfr',
-    'https://ibb.co/r0VCNZF',
-    'https://ibb.co/wdR7yYZ',
-    'https://ibb.co/bRGY4y3'
+    'https://i.postimg.cc/50HPV41C/1.png',
+    'https://i.postimg.cc/bNfm7f5Z/2.jpg',
+    'https://i.postimg.cc/tCdBym02/3.jpg',
+    'https://i.postimg.cc/P52Kvp5D/4.jpg',
+    'https://i.postimg.cc/XvqLfjrz/5.png',
+    'https://i.postimg.cc/1zdHMk65/6.jpg',
+    'https://i.postimg.cc/LXZVWxBk/7.jpg',
+    'https://i.postimg.cc/wM8kYD0C/8.jpg',
+    'https://i.postimg.cc/tRW5tmgp/9.jpg'
   ]
 
   const openModal = (image: string) => {
